@@ -1,8 +1,5 @@
 package org.example;
 
-//Q) Given a string s, find the first non-repeating character in it and return its index.
-//        If it does not exist, return -1.
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
