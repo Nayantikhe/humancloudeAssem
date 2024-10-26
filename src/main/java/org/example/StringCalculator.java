@@ -16,7 +16,7 @@ public class StringCalculator {
             return 0;
         }
 
-        String delimiter = ",|\n"; // Default delimiters: comma and newline
+        String delimiter = ",|\n";
         if (numbers.startsWith("//")) {
             int delimiterEndIndex = numbers.indexOf("\n");
             delimiter = Pattern.quote(numbers.substring(2, delimiterEndIndex));
